@@ -25,7 +25,7 @@ body {
   align-items: center;
 }
 
-.container h3 {
+.container h1 {
   font-size: 15px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -45,6 +45,7 @@ body {
 }
 
 .dice {
+  border: none;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -52,9 +53,15 @@ body {
   background-color: hsl(150, 100%, 66%);
   width: 24px;
   height: 24px;
-  padding: 20px;
+  padding: 30px;
   border-radius: 50%;
-  display: flex;
+}
+
+.dice img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 576px) {
